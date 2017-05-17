@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 import "./stylesheets/main.scss";
 
-import Parking from './components/parking'
+import Parking from './components/Parking'
 
 // render the main component
 ReactDOM.render(
