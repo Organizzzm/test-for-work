@@ -5,13 +5,14 @@ class ParkingFactory{
         let arr = [];
 
         for(let i in options){
-            let count = options[i];
+            let count = options[i].count;
 
             while (count){
                 arr.push({
                     type: i,
                     busy: false,
-                    who: 'void'
+                    who: 'void',
+                    available: options[i].available
                 })
 
                 count--;
